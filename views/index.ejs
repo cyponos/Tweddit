@@ -1,22 +1,31 @@
 <h1>Welcome to Tweddit</h1>
 
-<div>
+<hr class="hr2" />
+<br />
+
+<div class="center" id="login">
   <!-------  LOGIN FORM  --------->
   <form action="/login" method="get">
-    <table>
-      <th colspan="2">Login</th>
+    <h2>Login</h2>
+    <table class="center">
       <tr>
-        <td>Username</td>
-        <td><input type="text" name="username" /></td>
+        <td>
+          <label for="username"
+            >Username <input type="text" name="username" id="username"
+          /></label>
+        </td>
       </tr>
       <tr>
-        <td>Password</td>
-        <td><input type="password" name="password" /></td>
+        <td>
+          <label for="password"
+            >Password <input type="password" name="password"
+          /></label>
+        </td>
       </tr>
     </table>
     <div>
-      <button type="submit" name="login">Login</button>
-      <input type="reset" />
+      <button type="submit" name="login" class="buttons">Login</button>
+      <input type="reset" class="buttons" />
     </div>
   </form>
 </div>
@@ -25,22 +34,28 @@
 <br />
 
 <!-------  REGISTER FORM  --------->
-<div>
+<div class="center" id="register">
   <form action="/register" method="post">
-    <table>
-      <th colspan="2">Register</th>
+    <h2>Register</h2>
+    <table class="center">
       <tr>
-        <td>Username</td>
-        <td><input type="text" name="username" /></td>
+        <td>
+          <label for="username"
+            >Username <input type="text" name="username" id="username"
+          /></label>
+        </td>
       </tr>
       <tr>
-        <td>Password</td>
-        <td><input type="password" name="password" /></td>
+        <td>
+          <label for="password"
+            >Password <input type="password" name="password"
+          /></label>
+        </td>
       </tr>
     </table>
     <div>
-      <button type="submit" name="register">Register</button>
-      <input type="reset" />
+      <button type="submit" name="register" class="buttons">Register</button>
+      <input type="reset" class="buttons" />
     </div>
   </form>
 </div>

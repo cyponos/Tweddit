@@ -1,1 +1,51 @@
-<h1> Welcome to Tweddit About Page</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>About</title>
+  </head>
+  <body>
+    <h1>Welcome to Tweddit About Page</h1>
+    <h2>Ask the internet anything!!!!!</h2>
+    <h3>
+      Tweddit is a place where users can create their own communities about
+      their interest, hobbies, etc...
+    </h3>
+    <hr />
+
+    <div class="newThread">
+      <h3>Start a new Twedd</h3>
+      <form>
+        <input
+          type="text"
+          name="subject"
+          id="subject"
+          maxlength="80"
+          size="70"
+          placeholder="Twedd subject..."
+        />
+        <br /><br />
+
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Tweddit message goes here..."
+          rows="10"
+          cols="70 px"
+        ></textarea>
+        <br />
+        <button class="buttons" type="button">Post</button>
+      </form>
+    </div>
+    <hr />
+
+    <!--- Section for current threads  --->
+    <div class="newPost">
+      <span class="user">placeholder for username</span><br />
+      <span class="date">placeholder for date</span><br />
+      <span class="newPost">placeholder for new thread from form</span>
+    </div>
+  </body>
+</html>
